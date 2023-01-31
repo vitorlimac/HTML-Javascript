@@ -155,3 +155,18 @@ header a:hover{
 .history a:hover {
     color: white;
 }
+footer {
+    padding: 64px 24px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer a{
+    color: red;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: white;
+}
