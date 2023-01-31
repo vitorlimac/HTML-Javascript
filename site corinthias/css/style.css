@@ -102,3 +102,56 @@ header a:hover{
 .fut p {
     font-weight: bold;
 }
+
+.history{
+    margin: 64px 0 0 ;
+    padding: 92px 24px 0 ;
+    border-top: 4px solid red;
+    background-color: #000000;
+    color: #ebebeb;
+}
+
+.history .container{
+    max-width: 1200px;   
+    margin: 0 auto; 
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #f13239;
+    gap: 24px;
+}
+
+.history a {
+    color: red;
+    text-decoration: none;    
+    transition: color 0.3s;
+    font-weight: 900;
+}
+
+.history h2 {
+    color: white;
+    margin-bottom: 32px;
+    padding-left: 8px;
+    border-left: 4px solid white;
+}
+
+.history p {
+    line-height: 1.5;
+}
+
+.history p + p {
+    margin-top: 24px;
+}
+
+.history .container .coluna {
+    flex: 1 1 300px;    
+}
+
+.history .container .coluna img {
+    width: 100%;
+}
+
+.history a:hover {
+    color: white;
+}
