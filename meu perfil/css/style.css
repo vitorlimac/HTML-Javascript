@@ -2,6 +2,21 @@ body {
     font-family: sans-serif; 
     background-image: linear-gradient(45deg,cyan,yellow);
 }
+header {
+    padding: 8px 24px;
+    background-color: rgb(146, 146, 134);
+    align-items:center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+header img{
+    width: 130px;
+}
+header p {
+    font-weight: 900;
+}
 .eu {
     text-align: center;
     
