@@ -97,7 +97,7 @@ main img {
 }
 
 .pq {
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
@@ -110,27 +110,38 @@ main img {
 }
 
 main p {
-    padding: 16px;
+    margin: 15px 0 ;
     font-weight: lighter;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
 }
 
 main a {
+    background-color: var(--cor1);
     text-decoration: none;
-    transition:  0,3s;
-    color: var(--cor5);
+    transition:  0,3s;    
     font-weight: bold;
+    padding: 2px 6px;
+    color: var(--cor4);
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor1);    
 }
 
 strong {
-    color: var(--cor5);
+    color: var(--cor4);
     font-weight: bold;
 }
 
 main h2 {
-    color: var(--cor5);
+    color: var(--cor4);
     font-family: var(--fonte-android);
-    background-image: linear-gradient(45deg, #83e1ad, white )      
-    
+    background-image: linear-gradient(to right, var( --cor1), transparent);
+    text-indent: 8px;       
 }
 
 aside{
