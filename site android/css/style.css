@@ -98,15 +98,22 @@ main p {
 main a {
     text-decoration: none;
     transition:  0,3s;
-    color: var(--cor4);
+    color: var(--cor5);
     font-weight: bold;
-
 }
+
+strong {
+    color: var(--cor5);
+    font-weight: bold;
+}
+
 main h2 {
+    color: var(--cor5);
     font-family: var(--fonte-android);
-    background-image: linear-gradient(45deg, #83e1ad, white )          
+    background-image: linear-gradient(45deg, #83e1ad, white )      
     
 }
+
 
 footer {
     background-color: var(--cor5);
