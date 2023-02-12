@@ -68,7 +68,7 @@ nav {
 
 nav a {
     
-    color: white;
+    color:var(--cor0);
     transition: color 0,3s;
     text-decoration: none;
     margin-left:24px;
@@ -143,6 +143,7 @@ main h2 {
     background-image: linear-gradient(to right, var( --cor1), transparent);
     text-indent: 8px;       
 }
+
 .video {
     background-color: var(--cor5);
     margin: 0px -20px 16px 0px ;
@@ -199,6 +200,6 @@ footer a {
 }
 
 footer a:hover {
-    color: rgb(255, 91, 91);
+    color: var(--cor0);
 
 }
