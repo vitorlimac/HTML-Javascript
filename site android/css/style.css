@@ -42,6 +42,7 @@ header h1 {
     text-shadow: 2px 2px o rgba(0, 0, 0, 0.685);
     color: white;
     font-size: 3em; 
+    padding-bottom: 30px;
 
 }
 
@@ -55,7 +56,7 @@ header p {
     padding-left: 10px;
     max-width: 600px;
     margin: auto;
-
+    padding-bottom: 30px;
     
 }
 
