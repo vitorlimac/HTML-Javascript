@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+header h1 {
+    color: white;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 3em; 
+    text-shadow: 2px 2px o rgba(0, 0, 0, 0.685);
+}
+nav{
+    background-color: black;
+    text-align: center;
+    padding-bottom:30px ;
+}
+nav p {
+    color: white;
+}
+nav a {
+    color: white;
+    font-weight: bold;
+    transition: color 0,3s;
+}
+nav a:hover {
+    color: blanchedalmond;
+}
