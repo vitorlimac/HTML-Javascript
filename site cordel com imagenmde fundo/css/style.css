@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Sriracha&display=swap');
+
+:root {
+    --fonte-padrão:'Passion One',Helvetica,cursive, sans-serif; 
+    --fonte-cordel: 'Sriracha', cursive, Helvetica, sans-serif; 
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:var(--fonte-cordel);    
+}
+
+
+header {
+    background-color: black;        
+    text-align: center;
+    min-height: 150px;
+    padding-top: 30px;
+}
+
+header h1 {
+    color: white;
+    font-family: var(--fonte-padrão);   
+    font-size: 3em;     
+}
+
+header p {
+    font-family: var(--fonte-cordel);
+    color: white;
+    padding-bottom: 30px;
+}
+
+header a {
+    color: white;
+    transition: color o,3;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+ header a:hover { 
+    color: antiquewhite;
+}
