@@ -47,3 +47,28 @@ header a {
  header a:hover { 
     color: antiquewhite;
 }
+
+.c1 {
+    padding: 40px 18px ;
+}
+
+.c2 {  
+    background-image: url(../imagens/background001.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;    
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    
+    
+}
+
+.c2 p {
+    width: 350px;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 18px;
+    
+}
