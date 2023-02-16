@@ -29,7 +29,7 @@ header {
 header h1 {
     color: white;
     font-family: var(--fonte-padrão);   
-    font-size: 3em;     
+    font-size: 4em;     
     font-variant: small-caps;
 }
 
@@ -39,7 +39,7 @@ header p {
     padding-bottom: 50px;
 }
 
-header a {
+header a  {
     color: white;
     transition: color o,3;
     font-weight: bold;
@@ -51,37 +51,40 @@ header a {
     color: antiquewhite;
 }
 
-.normal {
-    padding: 40px 18px ;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em; 
+    padding-left: 30px;
     min-width: 320px;
     max-width: 1000px; 
-    margin: auto;  
+    margin: auto;
+}
+
+.normal {
+    background-color: white;
+    color: black;
 }
 
 .imagem {  
     background-image: url(../imagens/background001.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: right center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; 
     background-color: black;    
-    box-shadow: 10px 10px 10px rgb(0, 0, 0);
-    min-width: 320px;
-    max-width: 1000px; 
-    margin: auto;  
-    
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.76);  
 }
 
-.imagem p {
-    width: 350px;
-    color: white;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 18px;
-    
+section.imagem > p {
+    display: inline-block;
+   background-color: rgba(0, 0, 0, 0.26); 
+   padding: 10px;     
+   color: white;
+   text-shadow: 1px 1px 0px black;
 }
 
-#espaço {
+.espaço {
     padding-top: 20px;
 }
 
@@ -91,17 +94,37 @@ header a {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: black;    
-    box-shadow: 10px 10px 10px rgb(0, 0, 0);
-    min-width: 320px;
-    max-width: 1000px; 
-    margin: auto; 
+    background-color: black;        
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.76);
 }
 
 .imagem02 p {
-    width: 350px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.384); 
+    padding: 10px; 
+    color: white;    
+   text-shadow: 1px 1px 0px black;
+ }
+ 
+footer {
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer p {
     color: white;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 18px;
+    padding-bottom: 10px;
+}
+
+footer a {
+    color: white;
+    transition: color o,3;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer  a:hover { 
+    color: antiquewhite;
 }
