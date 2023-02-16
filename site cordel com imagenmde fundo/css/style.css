@@ -10,10 +10,11 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    
 }
 
-body {
+html, body {
+    min-height: 100vh;
     font-family:var(--fonte-cordel);    
 }
 
@@ -22,19 +23,20 @@ header {
     background-color: black;        
     text-align: center;
     min-height: 150px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 header h1 {
     color: white;
     font-family: var(--fonte-padrão);   
     font-size: 3em;     
+    font-variant: small-caps;
 }
 
 header p {
     font-family: var(--fonte-cordel);
     color: white;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 header a {
@@ -42,20 +44,21 @@ header a {
     transition: color o,3;
     font-weight: bold;
     border-radius: 5px;
+    text-decoration: none;
 }
 
  header a:hover { 
     color: antiquewhite;
 }
 
-.c1 {
+.normal {
     padding: 40px 18px ;
     min-width: 320px;
     max-width: 1000px; 
     margin: auto;  
 }
 
-.c2 {  
+.imagem {  
     background-image: url(../imagens/background001.jpg);
     background-size: cover;
     background-position: center center;
@@ -69,7 +72,7 @@ header a {
     
 }
 
-.c2 p {
+.imagem p {
     width: 350px;
     color: white;
     padding-top: 40px;
@@ -78,18 +81,11 @@ header a {
     
 }
 
-.c3 {
-    padding: 40px 18px ;
-    min-width: 320px;
-    max-width: 1000px; 
-    margin: auto;  
-}
-
 #espaço {
     padding-top: 20px;
 }
 
-.c4 {
+.imagem02 {
     background-image: url(../imagens/background002.jpg);
     background-size: cover;
     background-position: center center;
@@ -102,11 +98,10 @@ header a {
     margin: auto; 
 }
 
-.c4 p {
+.imagem02 p {
     width: 350px;
     color: white;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 18px;
-
 }
